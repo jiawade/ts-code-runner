@@ -7,7 +7,7 @@
     "usingNewPythonInterpreterPathApi": true,
     "usingNewPythonInterpreterPathApiV2": true
   },
-  "publisher": "wade",
+  "publisher": "Wade",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.93.0"
@@ -103,27 +103,27 @@
           "group": "stop-code-run"
         }
       ],
-      
+
       "editor/title": [
         {
           "when": "config.code-runner.showRunIconInEditorTitleMenu",
           "command": "code-runner.config",
-          "group": "navigation@1"
+          "group": "navigation@100"
         },
         {
           "when": "config.code-runner.showRunIconInEditorTitleMenu",
           "command": "code-runner.run",
-          "group": "navigation@2"
+          "group": "navigation@101"
         },
         {
           "when": "config.code-runner.showRunIconInEditorTitleMenu",
           "command": "code-debug-runner.run",
-          "group": "navigation@3"
+          "group": "navigation@102"
         },
         {
           "when": "config.code-runner.showStopIconInEditorTitleMenu",
           "command": "code-runner.stop",
-          "group": "navigation@4"
+          "group": "navigation@103"
         }
       ],
       "explorer/context": [
